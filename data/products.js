@@ -114,26 +114,26 @@ var list_products = [{
     },
     "masp": "Sam1"
 }, {
-    "name": "iPhone X 256GB Silver",
+    "name": "iPhone 13 128GB",
     "company": "Apple",
-    "img": "img/products/iphone-x-256gb-silver-400x400.jpg",
-    "price": "31.990.000",
+    "img": "img/products/iphone-13-128gb-xanhla-355x355.jpg",
+    "price": "13.700.000",
     "star": 4,
     "rateCount": 10,
     "promo": {
         "name": "giareonline",
-        "value": "27.990.000"
+        "value": "17.800.000"
     },
     "detail": {
-        "screen": "OLED, 5.8', Super Retina",
-        "os": "iOS 11",
+        "screen": "OLED, 6.1', Super Retina XDR",
+        "os": "iOS 15",
         "camara": "2 camera 12 MP",
-        "camaraFront": "7 MP",
-        "cpu": "Apple A11 Bionic 6 nhân",
-        "ram": "3 GB",
-        "rom": "256 GB",
+        "camaraFront": "12 MP",
+        "cpu": "Apple A15 Bionic",
+        "ram": "4 GB",
+        "rom": "128 GB",
         "microUSB": "Không",
-        "battery": "2716 mAh, có sạc nhanh"
+        "battery": "3240 mAh, có sạc nhanh"
     },
     "masp": "App0"
 }, {

@@ -521,10 +521,10 @@ function addTopNav() {
 	<div class="top-nav group">
         <section>
             <div class="social-top-nav">
-                <a class="fa fa-facebook"></a>
-                <a class="fa fa-twitter"></a>
-                <a class="fa fa-google"></a>
-                <a class="fa fa-youtube"></a>
+                <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook-f"></a>
+                <a href="https://www.x.com" target="_blank" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+                <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube-play"></a>
             </div> <!-- End Social Topnav -->
 
             <ul class="top-nav-quicklink flexContain">
@@ -606,8 +606,8 @@ function addFooter() {
 
     <!-- ============== Footer ============= -->
     <div class="copy-right">
-        <p><a href="index.html">LDD Phone Store</a> - All rights reserved © 2021 - Designed by
-            <span style="color: #eee; font-weight: bold">group 15th</span></p>
+        <p><a href="index.html">LDD Phone Store</a> - All rights reserved © 2024 - Designed by
+            <span style="color: #eee; font-weight: bold">Bốn con sói -- UET-K67-AI</span></p>
     </div>`);
 }
 
