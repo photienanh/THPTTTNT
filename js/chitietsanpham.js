@@ -87,6 +87,7 @@ function phanTich_URL_chiTietSanPham() {
     s += addThongSo('CPU', sanPhamHienTai.detail.cpu);
     s += addThongSo('RAM', sanPhamHienTai.detail.ram);
     s += addThongSo('Bộ nhớ trong', sanPhamHienTai.detail.rom);
+    s += addThongSo('SIM', sanPhamHienTai.detail.sim)
     s += addThongSo('Thẻ nhớ', sanPhamHienTai.detail.microUSB);
     s += addThongSo('Dung lượng pin', sanPhamHienTai.detail.battery);
     info.innerHTML = s;

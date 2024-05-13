@@ -116,7 +116,7 @@ var list_products = [{
 }, {
     "name": "iPhone 13 128GB",
     "company": "Apple",
-    "img": "img/products/iphone-13-128gb-xanhla-355x355.jpg",
+    "img": "img/products/iphone-13-128gb-355x355.jpg",
     "price": "13.700.000",
     "star": 4,
     "rateCount": 10,
@@ -132,8 +132,9 @@ var list_products = [{
         "cpu": "Apple A15 Bionic",
         "ram": "4 GB",
         "rom": "128 GB",
+        "sim": "1 Nano SIM & 1 eSIM, Hỗ trợ 5G",
         "microUSB": "Không",
-        "battery": "3240 mAh, có sạc nhanh"
+        "battery": "3240 mAh, 20 W"
     },
     "masp": "App0"
 }, {
@@ -1034,26 +1035,27 @@ var list_products = [{
     },
     "masp": "Mot0"
 }, {
-    "name": "iPhone Xr 128GB",
+    "name": "iPhone 15 Pro Max 256GB",
     "company": "Apple",
-    "img": "https://cdn.tgdd.vn/Products/Images/42/191483/iphone-xr-128gb-red-600x600.jpg",
-    "price": "24.990.000",
+    "img": "img/products/iphone-15-pro-max-256gb-400x400.jpg",
+    "price": "25.590.000",
     "star": 0,
     "rateCount": 0,
     "promo": {
         "name": "giareonline",
-        "value": "22.990.000"
+        "value": "34.990.000"
     },
     "detail": {
-        "screen": "IPS LCD, 6.1', IPS LCD, 16 triệu màu",
-        "os": "iOS 12",
-        "camara": "12 MP",
-        "camaraFront": "7 MP",
-        "cpu": "Apple A12 Bionic 6 nhân",
-        "ram": "3 GB",
-        "rom": "128 GB",
+        "screen": "IPS LCD, 6.7', Super Retina XDR",
+        "os": "iOS 17",
+        "camara": "Chính 48 MP & Phụ 12 MP, 12 MP",
+        "camaraFront": "12 MP",
+        "cpu": "Apple A17 Bionic 6 nhân",
+        "ram": "8 GB",
+        "rom": "256 GB",
+        "sim":"1 Nano SIM & 1 eSIM, Hỗ trợ 5G",
         "microUSB": "Không",
-        "battery": "2942 mAh, có sạc nhanh"
+        "battery": "4422 mAh, 20 W"
     },
     "masp": "App3"
 }, {
