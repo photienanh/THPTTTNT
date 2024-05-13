@@ -1149,4 +1149,73 @@ var list_products = [{
         "battery": "3340 mAh"
     },
     "masp": "Hua3"
-}]
+}, {
+    "name": "Iphone 13 pro max",
+    "company": "APPLE",
+    "img": "./img/chitietsanpham/iphone13promax.jpg",
+    "price": "31.990.000",
+    "star": 5,
+    "rateCount": 804,
+    "promo": {
+        "name": "giareonline",
+        "value": "17.990.000"
+    },
+    "detail": {
+        "screen": "OlED, 6.7', HDR",
+        "os": "IOS 15",
+        "camara": "12 MP, 12 MP, 12 MP (3 camera)",
+        "camaraFront": "12MP, ƒ/2.2",
+        "cpu": "Apple A15",
+        "ram": "6 GB",
+        "rom": "256 GB",
+        "microUSB": "Không có",
+        "battery": "4352 mAh"}
+    , "masp": "App7"
+},{
+"name": "SamSung Galaxy S24 5G",
+    "company": "SamSung",
+    "img": "./img/chitietsanpham/samsungs24.jpg",
+    "price": "26.400.000",
+    "star": 5,
+    "rateCount": 804,
+    "promo": {
+        "name": "giareonline",
+        "value": "22.990.000"
+    },
+    "detail": {
+        "screen": "Dynamic AMOLED 2X6.2, Full HD+",
+        "os": "Android 14",
+        "camara": "Chính 50 MP & Phụ 12 MP, 10 MP",
+        "camaraFront": "12MP",
+        "cpu": "Exynos 2400",
+        "ram": "8 GB",
+        "rom": "512 GB",
+        "microUSB": "Không có",
+        "battery": "4000 mAh, 25 W"}
+    , "masp": "Sam4"
+    },
+
+{
+    "name": "SamSung Galaxy S24 Ultra",
+    "company": "SamSung",
+    "img": "./img/chitietsanpham/samsungs24ultra.jpg",
+    "price": "33.990.000",
+    "star": 5,
+    "rateCount": 500,
+    "promo": {
+        "name": "giareonline",
+        "value": "28.990.000"
+    },
+    "detail": {
+        "screen": "Dynamic AMOLED 2X,6.8, Full HD+",
+        "os": "Android 14, One UI 6.1",
+        "camara": "Chính 50 MP & Phụ 12 MP, 10 MP",
+        "camaraFront": "12 MP, f/2.2",
+        "cpu": "Snapdragon 8 Gen 3 For Galaxy",
+        "ram": "12 GB",
+        "rom": "512 GB",
+        "microUSB": "Không có",
+        "battery": "5000 mAh, 25 W"}
+    , "masp": "Sam5"
+    },
+]
