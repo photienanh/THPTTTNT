@@ -1,3 +1,4 @@
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
 /* Top Navigation */
 	.top-nav {
 		display: inline-block;
@@ -25,10 +26,12 @@
 		}
 		/* hightlight icon fb, google, youtube .... when hover */
 		.social-top-nav a:hover { color: #fff; }
-		.fa-facebook-f:hover { background: #3B5998; }
-		.fa-twitter:hover { background: #55ACEE; }
-		.fa-instagram:hover {background:#F56078;}
-		.fa-youtube-play:hover { background: #bb0000; }
+		.fa-github:hover { background: linear-gradient(90deg, #990099, #ffffff);}
+		.fa-facebook:hover { background: linear-gradient(90deg, #3b5998, #4267b2);}
+		.fa-twitter:hover { background: linear-gradient(90deg, #1da1f2, #aab8c2);}
+		.fa-instagram:hover {background: linear-gradient(90deg, #00ffff, #ff00c3);}
+		.fa-youtube:hover { background: linear-gradient(90deg, #ff0000, #ffffff);}
+		.fa-linkedin:hover { background: linear-gradient(90deg, #0077b5, #000000);}
 	/* ======= End Social Icon ======= */
 
 	/* Quick link */
@@ -42,7 +45,7 @@
 		}
 		.top-nav-quicklink li a {
 			display: block;
-			color: gray;
+			color: black;
 			padding: 8px 15px;
 			transition-duration: .15s;
 		}

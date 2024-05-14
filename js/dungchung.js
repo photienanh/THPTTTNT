@@ -521,19 +521,21 @@ function addTopNav() {
 	<div class="top-nav group">
         <section>
             <div class="social-top-nav">
-                <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook-f"></a>
-                <a href="https://www.x.com" target="_blank" class="fa fa-twitter"></a>
-                <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
-                <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube-play"></a>
+                <a href="https://github.com/photienanh/THPTTTNT" target="_blank" <i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com" target="_blank" <i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.x.com" target="_blank" <i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" <i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com" target="_blank" <i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" <i class="fa-brands fa-linkedin"></i></a>
             </div> <!-- End Social Topnav -->
 
             <ul class="top-nav-quicklink flexContain">
-                <li><a href="index.html"><i class="fa fa-home"></i> Trang chủ</a></li>
-                <li><a href="tintuc.html"><i class="fa fa-newspaper-o"></i> Tin tức</a></li>
-                <li><a href="tuyendung.html"><i class="fa fa-handshake-o"></i> Tuyển dụng</a></li>
-                <li><a href="gioithieu.html"><i class="fa fa-info-circle"></i> Giới thiệu</a></li>
-                <li><a href="trungtambaohanh.html"><i class="fa fa-wrench"></i> Bảo hành</a></li>
-                <li><a href="lienhe.html"><i class="fa fa-phone"></i> Liên hệ</a></li>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Trang chủ</a></li>
+                <li><a href="tintuc.html"><i class="fa-solid fa-newspaper"></i> Tin tức</a></li>
+                <li><a href="tuyendung.html"><i class="fa-solid fa-handshake"></i> Tuyển dụng</a></li>
+                <li><a href="gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a></li>
+                <li><a href="trungtambaohanh.html"><i class="fa-solid fa-wrench"></i> Bảo hành</a></li>
+                <li><a href="lienhe.html"><i class="fa-solid fa-phone"></i> Liên hệ</a></li>
             </ul> <!-- End Quick link -->
         </section><!-- End Section -->
     </div><!-- End Top Nav  -->`);
