@@ -1168,6 +1168,7 @@ var list_products = [{
         "cpu": "Apple A15",
         "ram": "6 GB",
         "rom": "256 GB",
+        "sim": "1 Nano SIM & 1 eSIM",
         "microUSB": "Không có",
         "battery": "4352 mAh"}
     , "masp": "App7"
@@ -1190,6 +1191,7 @@ var list_products = [{
         "cpu": "Exynos 2400",
         "ram": "8 GB",
         "rom": "512 GB",
+        "sim": "SIM 1 + SIM 2 / SIM 1 + eSIM / 2 eSIM",
         "microUSB": "Không có",
         "battery": "4000 mAh, 25 W"}
     , "masp": "Sam4"
@@ -1212,6 +1214,7 @@ var list_products = [{
         "camara": "Chính 50 MP & Phụ 12 MP, 10 MP",
         "camaraFront": "12 MP, f/2.2",
         "cpu": "Snapdragon 8 Gen 3 For Galaxy",
+        "sim": "SIM 1 + SIM 2 / SIM 1 + eSIM / 2 eSIM",
         "ram": "12 GB",
         "rom": "512 GB",
         "microUSB": "Không có",
