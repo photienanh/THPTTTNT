@@ -6,15 +6,15 @@
         position: sticky;
         top: 1;
         z-index: 14;
-        background-color: #b4f0fa; /* Thay đổi màu nền */
-        padding: 15px 0; 
+        background-color: hsl(178, 76%, 61%); /* Thay đổi màu nền */
+        padding: 14px 0; 
         border-bottom: 2px solid #9ef8ce; /* Thay đổi border-bottom */
 }
 
 	/* Logo */
 		.header .logo {
 			width: 200px;
-			height: 100px;
+			height: 90px;
 			float: left;
 			transition-duration: .1s;
 			margin-left: 30px;
@@ -38,8 +38,10 @@
 		}
 
 		/* Search */
+		    
 			.search-header {
 				float: left;
+				
 			}
 
 			form.input-search {
@@ -48,11 +50,11 @@
 				border: 4px solid #bbb;
 				border-radius: 10px;
 				height: 35px;
-				width: 500px;
+				width: 300px;
 				/* điều chỉnh width của ô tìm kiếm trên header ở đây */
 			}
 			.input-search input {
-				float: left;
+				float: middle;
 				padding-left: 15px;
 				border: none;
 				border-radius: 10px 0 0 10px;
@@ -141,12 +143,12 @@
 				text-align: center;
 				font-size: 16px;
 				font-weight: bold;
-				color: #565;
+				color: rgb(7, 98, 98);
 				cursor: pointer;
 			}
 			.tools-member a:hover > i {
 				border: 1px solid #fff;
-				background-color: rgb(161, 161, 161);
+				background-color: rgb(160, 32, 128);
 				color: #fff;
 			}
 
