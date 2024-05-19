@@ -1,10 +1,11 @@
 /* Header */
 	.header {
+		height: 60px;
 		display: flex;
         flex-direction: row;
 		align-items: left;
         position: sticky;
-        top: 1;
+        top: 0;
         z-index: 14;
         background-color: hsl(178, 76%, 61%); /* Thay đổi màu nền */
         padding: 14px 0; 
@@ -13,14 +14,15 @@
 
 	/* Logo */
 		.header .logo {
-			width: 200px;
-			height: 90px;
+			width: 180px;
+			height: 60px;
 			float: left;
 			transition-duration: .1s;
 			margin-left: 20px;
 		}
 		.header .logo:hover {
 			transform: scale(1.05);
+			transition: transform 0.3s ease-in-out;
 		}
 		.header .logo img {
 			width: 100%;
@@ -35,6 +37,8 @@
 			width: calc(100% - 250px);
 			float: left;
 			order: 3;
+			display: flex;
+			justify-content: space-between;
 		}
 
 		/* Search */
@@ -47,31 +51,42 @@
 			form.input-search {
 				margin-left: 20px;
 				background: #ddd;
-				border: 4px solid #bbb;
+				border: none;
 				border-radius: 10px;
 				height: 35px;
-<<<<<<< HEAD
-				width: 400px;
-=======
-				width: 300px;
->>>>>>> caa2b9cc38ed26554b2b10388a312e48a96e23df
-				/* điều chỉnh width của ô tìm kiếm trên header ở đây */
+				width: 320px;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* add shadow for a 3D effect */
 			}
+				/* điều chỉnh width của ô tìm kiếm trên header ở đây */
+			
 			.input-search input {
 				float: middle;
 				padding-left: 15px;
 				border: none;
-				border-radius: 10px 0 0 10px;
+				border-radius: 20px 0 0 10px;
 				height: 100%;
-				width: calc(100% - 100px - 20px);
+				background: transparent;
+
 				/* 100 la width button, 20 la padding button */
 			}
+			.input-search input::placeholder { /* change look of input placeholder */
+				color: #5555f2;
+				font-weight: bold;
+				transition: color 0.5s ease; /* add transition effect */
+
+			}	input-search input:hover {
+					background-color: #79f3e3;
+					color: #fff;
+				}
+			.input-search input:hover::placeholder {
+					color: #e475f3;
+				}
 			.input-search button {
 				float: right;
 				font-size: 14px;
 				font-weight: bold;
 				padding: 0 10px;
-				color: #888;
+				color: #66b2f0;
 				background: none;
 				width: 100px;
 				height: 100%;
@@ -209,7 +224,6 @@
 				.cart {
 					float: left;
 					display: table-cell;
-					/* border-left: 1px solid #bbb; */
 					margin: 0 15px; 
 					padding-left: 5px;
 				}
