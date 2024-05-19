@@ -17,7 +17,7 @@
 			height: 90px;
 			float: left;
 			transition-duration: .1s;
-			margin-left: 30px;
+			margin-left: 20px;
 		}
 		.header .logo:hover {
 			transform: scale(1.05);
@@ -50,7 +50,11 @@
 				border: 4px solid #bbb;
 				border-radius: 10px;
 				height: 35px;
+<<<<<<< HEAD
+				width: 400px;
+=======
 				width: 300px;
+>>>>>>> caa2b9cc38ed26554b2b10388a312e48a96e23df
 				/* điều chỉnh width của ô tìm kiếm trên header ở đây */
 			}
 			.input-search input {
@@ -238,4 +242,7 @@
 			/* ======= End Check Order ======= */
 		/* ======= End Tools Member ======= */
 	/* ======= End Content ========= */
+	.tags {
+		text-align: center;
+	}
 /* ======= End header ======== */
