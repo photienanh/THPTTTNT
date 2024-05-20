@@ -570,7 +570,7 @@ function addHeader() {
             <div class="tools-member">
                 <div class="member">
                     <a onclick="checkTaiKhoan()">
-                        <i class="fa fa-user"></i>
+                        <i class="fa-solid fa-user"></i>
                         Tài khoản
                     </a>
                     <div class="menuMember hide">
@@ -582,7 +582,7 @@ function addHeader() {
 
                 <div class="cart">
                     <a href="giohang.html">
-                        <i class="fa fa-shopping-cart"></i>
+                        <i class="fa-solid fa-shopping-cart"></i>
                         <span>Giỏ hàng</span>
                         <span class="cart-number"></span>
                     </a>
@@ -590,7 +590,7 @@ function addHeader() {
 
                 <!--<div class="check-order">
                     <a>
-                        <i class="fa fa-truck"></i>
+                        <i class="fa-solid fa-truck"></i>
                         <span>Đơn hàng</span>
                     </a>
                 </div> -->
