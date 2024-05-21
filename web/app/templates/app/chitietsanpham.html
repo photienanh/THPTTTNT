@@ -6,33 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thế giới điện thoại</title>
-    <link rel="shortcut icon" href="img/icon.png" />
+    <link rel="shortcut icon" href="{% static 'app/img/icon.png' %}" />
 
     <!-- Load font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         crossorigin="anonymous">
 
 	<!-- owl carousel libraries cho hình nhỏ -->
-	<link rel="stylesheet" href="js/owlcarousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="js/owlcarousel/owl.theme.default.min.css">
-	<script src="js/Jquery/Jquery.min.js"></script>
-    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+	<link rel="stylesheet" href="{% static 'app/js/owlcarousel/owl.carousel.min.css' %}">
+	<link rel="stylesheet" href="{% static 'app/js/owlcarousel/owl.theme.default.min.css' %}">
+	<script src="{% static 'app/js/Jquery/Jquery.min.js' %}"></script>
+    <script src="{% static 'app/js/owlcarousel/owl.carousel.min.js' %}"></script>
 
     <!-- our files -->
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/topnav.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/taikhoan.css">
-    <link rel="stylesheet" href="css/trangchu.css">
-    <link rel="stylesheet" href="css/home_products.css">
-    <link rel="stylesheet" href="css/chitietsanpham.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="{% static 'app/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/topnav.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/taikhoan.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/trangchu.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/home_products.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/chitietsanpham.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/footer.css' %}">
     <!-- js -->
-    <script src="data/products.js"></script>
-    <script src="js/classes.js"></script>
-    <script src="js/dungchung.js"></script>
-    <script src="js/chitietsanpham.js"></script>
+    <script src="{% static 'data/products.js' %}"></script>
+    <script src="{% static 'js/classes.js' %}"></script>
+    <script src="{% static 'js/dungchung.js' %}"></script>
+    <script src="{% static 'js/chitietsanpham.js' %}"></script>
 </head>
 
 <body>
@@ -57,13 +57,13 @@
                 <div class="price_sale">
                     <div class="area_price"> </div>
                     <div class="ship" style="display: none;">
-                        <img src="img/chitietsanpham/clock-152067_960_720.png">
+                        <img src="{% static 'app/img/chitietsanpham/clock-152067_960_720.png' %}">
                         <div>NHẬN HÀNG TRONG 1 GIỜ</div>
                     </div>
                     <div class="area_promo">
                         <strong>khuyến mãi</strong>
                         <div class="promo">
-                            <img src="img/chitietsanpham/icon-tick.png">
+                            <img src="{% static 'img/chitietsanpham/icon-tick.png' %}">
                             <div id="detailPromo"> </div>
                         </div>
                     </div>
