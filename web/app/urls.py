@@ -3,15 +3,15 @@ from django.contrib import admin
 from . import views
 
 urlpatterns = [
-    path('', views.index),
-    path('', views.admin),
-    path('', views.chitietsanpham),
-    path('', views.createProductJson),
-    path('', views.giohang),
-    path('', views.gioithieu),
-    path('', views.lienhe),
-    path('', views.nguoidung),
-    path('', views.tintuc),
-    path('', views.trungtambaohanh),
-    path('', views.tuyendung),
+    path('index.html', views.index),
+    path('admin.html', views.admin),
+    path('chitietsanpham.html', views.chitietsanpham),
+    path('createProductJson.html', views.createProductJson),
+    path('giohang.html', views.giohang),
+    path('gioithieu.html', views.gioithieu),
+    path('lienhe.html', views.lienhe),
+    path('nguoidung.html', views.nguoidung),
+    path('tintuc.html', views.tintuc),
+    path('trungtambaohanh.html', views.trungtambaohanh),
+    path('tuyendung.html', views.tuyendung),
 ]
