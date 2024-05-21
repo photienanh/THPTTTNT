@@ -28,13 +28,13 @@
 	<link rel="stylesheet" href="{% static 'app/css/taikhoan.css'%}">
 	<link rel="stylesheet" href="{% static 'app/css/trangchu.css'%}">
 	<link rel="stylesheet" href="{% static 'app/css/home_products.css'%}">
-	<link rel="stylesheet" href="css/pagination_phantrang.css">
-	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="{% static 'app/css/pagination_phantrang.css' %}">
+	<link rel="stylesheet" href="{% static 'app/css/footer.css' %}">
 	<!-- js -->
-	<script src="data/products.js"></script>
-	<script src="js/classes.js"></script>
-	<script src="js/dungchung.js"></script>
-	<script src="js/trangchu.js"></script>
+	<script src="{% static 'app/data/products.js' %}"></script>
+	<script src="{% static 'app/js/classes.js' %}"></script>
+	<script src="{% static 'app/js/dungchung.js' %}"></script>
+	<script src="{% static 'app/js/trangchu.js' %}"></script>
 
 </head>
 
@@ -48,7 +48,7 @@
 			<div class="owl-carousel owl-theme"></div>
 		</div> <!-- End Banner -->
 
-		<img src="img/banners/blackFriday.gif" alt="" style="width: 100%;">
+		<img src="{% static 'app/img/banners/blackFriday.gif' %}" alt="" style="width: 100%;">
 
 		<br>
 		<div class="companyMenu group flexContain"></div>
