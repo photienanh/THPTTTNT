@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="vi">
 
@@ -44,7 +45,7 @@
 
         <div id="productNotFound" style="min-height: 50vh; text-align: center; margin: 50px; display: none;">
             <h1 style="color: red; margin-bottom: 10px;">Không tìm thấy sản phẩm</h1>
-            <a href="{% url 'app/index.html' %}" style="text-decoration: underline;">Quay lại trang chủ</a>
+            <a href="index.html" style="text-decoration: underline;">Quay lại trang chủ</a>
         </div>
 
         <div class="chitietSanpham" style="margin-bottom: 100px">
@@ -69,15 +70,15 @@
                     </div>
                     <div class="policy">
                         <div>
-                            <img src="img/chitietsanpham/box.png">
+                            <img src="{% static 'app/img/chitietsanpham/box.png' %}">
                             <p>Trong hộp có: Sạc, Tai nghe, Sách hướng dẫn, Cây lấy sim, Ốp lưng </p>
                         </div>
                         <div>
-                            <img src="img/chitietsanpham/icon-baohanh.png">
+                            <img src="{% static 'app/img/chitietsanpham/icon-baohanh.png' %}">
                             <p>Bảo hành chính hãng 12 tháng.</p>
                         </div>
                         <div class="last">
-                            <img src="img/chitietsanpham/1-1.jpg">
+                            <img src="{% static 'app/img/chitietsanpham/1-1.jpg' %}">
                             <p>1 đổi 1 trong 1 tháng nếu lỗi, đổi sản phẩm tại nhà trong 1 ngày.</p>
                         </div>
                     </div>
@@ -98,7 +99,7 @@
             <div id="overlaycertainimg" class="overlaycertainimg">
                 <div class="close" onclick="closecertain()">&times;</div>
                 <div class="overlaycertainimg-content">
-                    <img id="bigimg" class="bigimg" src="img/chitietsanpham/oppo-f9-red-2-400x460.png">
+                    <img id="bigimg" class="bigimg" src="{% static 'app/img/chitietsanpham/oppo-f9-red-2-400x460.png' %}">
                     <div class="div_smallimg owl-carousel">
                         <!-- <img src="img/chitietsanpham/oppo-f9-mau-do-1-org.jpg" onclick="changepic(this.src)">
                         <img src="img/chitietsanpham/oppo-f9-mau-do-2-org.jpg" onclick="changepic(this.src)">

@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,13 +10,14 @@
 	<!-- Load font awesome icons -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 	 crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'app/css/style.css' %}">
 	<link rel="stylesheet" href="css/header.css">
-	<link rel="stylesheet" type="text/css" href="css/home_products.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'app/css/home_products.css' %}">
 
-	<script src="data/products.js"></script>
-	<script src="js/classes.js"></script>
-	<script src="js/dungchung.js"></script>
+
+	<script src="{% static 'app/data/products.js' %}"></script>
+	<script src="{% static 'app/js/dungchung.js' %}"></script>
+	<script src="{% static 'app/js/classes.js' %}"></script>
 
 	<style>
 		* { 
