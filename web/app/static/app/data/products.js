@@ -1222,3 +1222,6 @@ var list_products = [{
     , "masp": "Sam5"
     },
 ]
+function getProducts() {
+    return list_products;
+}
