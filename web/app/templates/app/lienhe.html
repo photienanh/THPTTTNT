@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="vi">
 
@@ -6,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Liên hệ - Thế giới điện thoại</title>
-    <link rel="shortcut icon" href="img/icon.png" />
+    <link rel="shortcut icon" href="{% static 'app/img/icon.png' %}" />
 
     <!-- Load font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -14,17 +15,17 @@
 
     <!-- our files -->
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/topnav.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/taikhoan.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/lienhe.css">
+    <link rel="stylesheet" href="{% static 'app/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/topnav.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/taikhoan.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/footer.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/lienhe.css' %}">
 
     <!-- js -->
-    <script src="data/products.js"></script>
-    <script src="js/dungchung.js"></script>
-    <script src="js/lienhe.js"></script>
+    <script src="{% static 'app/data/products.js' %}"></script>
+	<script src="{% static 'app/js/dungchung.js' %}"></script>
+    <script src="{% static 'app/js/lienhe.js' %}"></script>
 
 </head>
 
@@ -43,7 +44,7 @@
                         <b>Địa chỉ:</b> 144 Xuân Thủy, Cầu Giấy, Hà Nội<br /><br />
                         <b>Telephone:</b> 012 345 6789<br /><br />
                         <b>Hotline:</b> 0999999999 - CSKH: 0777 777 777<br /><br />
-                        <b>Website:</b> <a href="https://github.com/photienanh/THPTTTNT">Github</a> <br /><br />
+                        <b>Website:</b> <a href="https://github.com/photienanh/THPTTTNT" style="color: blue; text-decoration: underline;">Github</a> <br /><br />
                         <b>E-mail:</b> 22022568@vnu.edu.vn<br /><br />
                         <b>Mã số thuế:</b> 01 02 03 04 05<br /><br />
                         <b>Tài khoản ngân hàng :</b><br /><br />

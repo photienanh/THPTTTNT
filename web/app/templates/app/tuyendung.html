@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tuyển dụng - Thế giới điện thoại</title>
-    <link rel="shortcut icon" href="img/icon.png" />
+    <link rel="shortcut icon" href="{% static 'app/img/icon.png' %}" />
 
     <!-- Load font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -14,16 +15,16 @@
 
     <!-- our files -->
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/topnav.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/taikhoan.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/tuyendung.css">
+    <link rel="stylesheet" href="{% static 'app/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/topnav.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/taikhoan.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/footer.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/tuyendung.css' %}">
 
     <!-- js -->
-    <script src="data/products.js"></script>
-	<script src="js/dungchung.js"></script>
+    <script src="{% static 'app/data/products.js' %}"></script>
+	<script src="{% static 'app/js/dungchung.js' %}"></script>
     <script>
         window.onload = function () {
             khoiTao();
