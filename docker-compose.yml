@@ -1,13 +1,5 @@
 services:
 
-  nginx:
-    image: nginx
-    build: ./nginx
-    container_name: 'nginx'
-    ports:
-      - "80:80"
-    depends_on:
-      - web
   web:
     image: web
     build:
@@ -15,7 +7,7 @@ services:
     container_name: "web"
     ports:
       - "8080:8080"
-    command: gunicorn app.wsgi 0.0.0.0:8080
+    command: python manage.py runserver 0.0.0.0:8080
     depends_on:
       - db
   db:
