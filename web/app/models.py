@@ -56,7 +56,7 @@ class ShopOrder(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     payment = models.ForeignKey(Payment, on_delete=models.CASCADE)
     status_order = models.CharField(max_length=200)
-    shipping = models.ForeignKey('Shipping', on_delete=models.CASCADE)
+    shipping = models.ForeignKey(Shipping, on_delete=models.CASCADE)
 
 class UserAccount(models.Model):
     username = models.CharField(max_length=200)
@@ -67,8 +67,6 @@ class UserComment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     comment = models.CharField(max_length=200)
-    post_id = models.AutoField(primary_key=True)
-
 class Shipping(models.Model):
     id = models.CharField(primary_key=True, max_length=200)
     kind = models.CharField(max_length=200)
