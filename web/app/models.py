@@ -30,7 +30,7 @@ class Product(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=255)
     company = models.CharField(max_length=255)
-    img = models.CharField(max_length=255)
+    img = models.ImageField()
     price = models.CharField(max_length=255)
     star = models.IntegerField(default=0)
     rateCount = models.IntegerField(default=0)
