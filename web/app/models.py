@@ -23,18 +23,19 @@ class Detail(models.Model):
     ram = models.CharField(max_length=200)
     rom = models.CharField(max_length=200)
     micro_usb = models.CharField(max_length=200)
+    sim = models.CharField(max_length=200)
     battery = models.CharField(max_length=200)
 
 class Product(models.Model):
-    id = models.CharField(primary_key=True, max_length=200)
+    id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=255)
     company = models.CharField(max_length=255)
     img = models.CharField(max_length=255)
     price = models.CharField(max_length=255)
     star = models.IntegerField(default=0)
-    rate_count = models.IntegerField(default=0)
+    rateCount = models.IntegerField(default=0)
     promo = models.OneToOneField(Promo, on_delete=models.CASCADE)
-    detail = models.OneToOneField(Detail, on_delete=models.CASCADE)
+    details = models.OneToOneField(Detail, on_delete=models.CASCADE)
 
 class Payment(models.Model):
     id = models.AutoField(primary_key=True)
