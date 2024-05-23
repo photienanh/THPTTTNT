@@ -73,8 +73,4 @@ class UserAccount(models.Model):
 class UserComment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-<<<<<<< HEAD
     comment = models.CharField(max_length=200)
-=======
-    comment = models.CharField(max_length=200)
->>>>>>> 8816f1bdebc605ca80722b7baccf6471f4f0a35c
