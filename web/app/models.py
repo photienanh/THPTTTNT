@@ -42,6 +42,13 @@ class Payment(models.Model):
     date_payment = models.DateField()
     method_payment = models.CharField(max_length=200)
 
+class Shipping(models.Model):
+    id = models.CharField(primary_key=True, max_length=200)
+    kind = models.CharField(max_length=200)
+    company = models.CharField(max_length=200)
+    price = models.FloatField()
+
+
 class ShopCart(models.Model):
     id = models.AutoField(primary_key=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -67,8 +74,3 @@ class UserComment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     comment = models.CharField(max_length=200)
-class Shipping(models.Model):
-    id = models.CharField(primary_key=True, max_length=200)
-    kind = models.CharField(max_length=200)
-    company = models.CharField(max_length=200)
-    price = models.FloatField()
