@@ -1,7 +1,7 @@
 from django.urls import path
 from django.contrib import admin
 from . import views
-#import execjs
+from .views import product
 
 urlpatterns = [
     path('', views.index),
@@ -16,13 +16,6 @@ urlpatterns = [
     path('tintuc.html', views.tintuc),
     path('trungtambaohanh.html', views.trungtambaohanh),
     path('tuyendung.html', views.tuyendung),
+
+    path('api/product/',product, name='product'),
 ]
-#with open('app/static/app/data/products.js', 'r') as file:
-    #js_code = file.read()
-#context = execjs.compile(js_code)
-#products = context.call("getProducts")
-#products.pop()
-#for product in products:
-    #name = product['name']
-    #name = name.replace(' ', '-')
-    #urlpatterns.append(path(f'chitietsanpham.html?{name}', views.chitietsanpham))
