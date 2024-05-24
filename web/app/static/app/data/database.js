@@ -5,7 +5,7 @@ var list_products = [];
 
 // Hàm để tải dữ liệu từ API endpoint /api/database
 function fetchDataFromDatabase() {
-    fetch('/api/database') // Gọi API endpoint /api/database
+    fetch('/api/product') // Gọi API endpoint /api/database
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -14,7 +14,7 @@ function fetchDataFromDatabase() {
         })
         .then(data => {
             // Gán dữ liệu từ API vào biến databaseData
-            databaseData = data;
+            list_products = data;
             console.log('Data from database:', list_products);
         })
         .catch(error => console.error('Error fetching data from database:', error));
