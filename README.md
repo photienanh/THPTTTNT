@@ -31,6 +31,7 @@
 - kết nối với cơ sở dữ liệu để hiển thị sản phẩm
 - Tạo môi trường Docker để thực thi dự án:
     + Tạo dockerfile: 
+    
             FROM python:3.10
 
             ENV PYTHONUNBUFFERED = 1
