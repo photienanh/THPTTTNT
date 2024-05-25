@@ -17,5 +17,5 @@ urlpatterns = [
     path('trungtambaohanh.html', views.trungtambaohanh),
     path('tuyendung.html', views.tuyendung),
 
-    path('api/product/',product, name='product'),
+    path('product/',product, name='product'),
 ]

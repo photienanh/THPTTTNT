@@ -543,11 +543,12 @@ function addTopNav() {
 
 // Thêm header
 function addHeader() {
-    document.write(`        
+    document.write(`       
+    {% load static %} 
 	<div class="header group">
         <div class="logo">
             <a href="index.html">
-                <img src="img/logo.jpg" alt="Trang chủ Smartphone Store" title="Trang chủ Smartphone Store">
+                <img src="{% static 'app/img/logo.jpg' %}" alt="Trang chủ Smartphone Store" title="Trang chủ Smartphone Store">
             </a>
         </div> <!-- End Logo -->
 

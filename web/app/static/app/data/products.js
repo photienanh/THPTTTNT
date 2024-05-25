@@ -1,7 +1,7 @@
-var list_products = [{
+var list_product = [{
     "name": "SamSung Galaxy J4+",
     "company": "Samsung",
-    "img": "static/img/products/samsung-galaxy-j4-plus-1-600x600.jpg",
+    "img": "static/app/img/products/samsung-galaxy-j4-plus-1-600x600.jpg",
     "price": "3.490.000",
     "star": 3,
     "rateCount": 26,
@@ -24,7 +24,7 @@ var list_products = [{
 }, {
     "name": "Xiaomi Mi 8 Lite",
     "company": "Xiaomi",
-    "img": "static/img/products/xiaomi-mi-8-lite-black-1-600x600.jpg",
+    "img": "static/app/img/products/xiaomi-mi-8-lite-black-1-600x600.jpg",
     "price": "6.690.000",
     "star": 0,
     "rateCount": 0,
@@ -47,7 +47,7 @@ var list_products = [{
 }, {
     "name": "Oppo F9",
     "company": "Oppo",
-    "img": "static/img/products/oppo-f9-red-600x600.jpg",
+    "img": "static/app/img/products/oppo-f9-red-600x600.jpg",
     "price": "7.690.000",
     "star": 5,
     "rateCount": 188,
@@ -70,7 +70,7 @@ var list_products = [{
 }, {
     "name": "Nokia 5.1 Plus",
     "company": "Nokia",
-    "img": "static/img/products/nokia-51-plus-black-18thangbh-400x400.jpg",
+    "img": "static/app/img/products/nokia-51-plus-black-18thangbh-400x400.jpg",
     "price": "4.790.000",
     "star": 5,
     "rateCount": 7,
@@ -93,7 +93,7 @@ var list_products = [{
 }, {
     "name": "Samsung Galaxy A8+ (2018)",
     "company": "Samsung",
-    "img": "static/img/products/samsung-galaxy-a8-plus-2018-gold-600x600.jpg",
+    "img": "static/app/img/products/samsung-galaxy-a8-plus-2018-gold-600x600.jpg",
     "price": "11.990.000",
     "star": 0,
     "rateCount": 0,

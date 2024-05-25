@@ -2,10 +2,10 @@ window.onload = function () {
 	khoiTao();
 
 	// Thêm hình vào banner
-	addBanner("static/img/banners/banner0.gif", "static/img/banners/banner0.gif");
+	addBanner("static/app/img/banners/banner0.gif", "static/app/img/banners/banner0.gif");
 	var numBanner = 9; // Số lượng hình banner
 	for (var i = 1; i <= numBanner; i++) {
-		var linkimg = "static/img/banners" + i + ".png";
+		var linkimg = "static/app/img/banners" + i + ".png";
 		addBanner(linkimg, linkimg);
 	}
 
@@ -33,7 +33,7 @@ window.onload = function () {
 		"Realme.png", "Vivo.jpg", "Philips.jpg", "Mobell.jpg", "Mobiistar.jpg", "Itel.jpg",
 		"Coolpad.png", "HTC.jpg", "Motorola.jpg"
 	];
-	for (var c of company) addCompany("static/img/company/" + c, c.slice(0, c.length - 4));
+	for (var c of company) addCompany("static/app/img/company/" + c, c.slice(0, c.length - 4));
 
 	// Thêm sản phẩm vào trang
 	var sanPhamPhanTich
