@@ -5,7 +5,7 @@ window.onload = function () {
 	addBanner("static/app/img/banners/banner0.gif", "static/app/img/banners/banner0.gif");
 	var numBanner = 9; // Số lượng hình banner
 	for (var i = 1; i <= numBanner; i++) {
-		var linkimg = "static/app/img/banners" + i + ".png";
+		var linkimg = "static/app/img/banners/banner" + i + ".png";
 		addBanner(linkimg, linkimg);
 	}
 
