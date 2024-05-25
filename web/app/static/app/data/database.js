@@ -6,7 +6,7 @@
 // // Hàm để tải dữ liệu từ API endpoint /api/database
 // function fetchDataFromDatabase() {
 //     console.log('Data from database:')
-//     fetch('api/app_product') // Gọi API endpoint /api/database
+//     fetch('api/product') // Gọi API endpoint /api/database
 //         .then(response => {
 //             if (!response.ok) {
 //                 throw new Error('Network response was not ok');
@@ -23,6 +23,8 @@
 
 // // Gọi hàm fetchDataFromDatabase để tải dữ liệu khi trang được tải
 // fetchDataFromDatabase();
+
+var list_products = [];
 
 const sqlite3 = require('sqlite3').verbose();
 
@@ -51,6 +53,7 @@ function fetchProducts() {
 // Sử dụng hàm fetchProducts để lấy dữ liệu và in ra console
 fetchProducts()
   .then((products) => {
+    list_products = products;
     console.log('Dữ liệu sản phẩm từ cơ sở dữ liệu:', products);
   })
   .catch((error) => {
