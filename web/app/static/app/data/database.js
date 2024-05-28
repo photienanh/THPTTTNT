@@ -1,4 +1,4 @@
-const sqlite3 = require('sqlite3').verbose();
+import sqlite3 from 'sqlite3';
 
 // Kết nối tới cơ sở dữ liệu
 let db = new sqlite3.Database('./db.sqlite3', (err) => {
