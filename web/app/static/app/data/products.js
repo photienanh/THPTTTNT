@@ -1,4 +1,4 @@
-var list_product = [{
+var list_products = [{
     "name": "SamSung Galaxy J4+",
     "company": "Samsung",
     "img": "static/app/img/products/samsung-galaxy-j4-plus-1-600x600.jpg",
