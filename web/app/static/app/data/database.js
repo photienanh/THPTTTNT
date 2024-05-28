@@ -1,5 +1,7 @@
 import sqlite3 from 'sqlite3';
 
+var list_products = []
+
 // Kết nối tới cơ sở dữ liệu
 let db = new sqlite3.Database('./db.sqlite3', (err) => {
   if (err) {
@@ -48,7 +50,7 @@ let db = new sqlite3.Database('./db.sqlite3', (err) => {
             battery: product.battery
           }
         }));
-        var list_products = list_products;
+        list_products = list_products;
         console.log('Dữ liệu sản phẩm từ cơ sở dữ liệu:', list_products);
       }
 
